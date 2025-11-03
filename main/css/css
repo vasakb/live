@@ -1,0 +1,847 @@
+body{
+    background-color: black;
+}
+
+
+nav{
+    height: 75px;
+    background-color: black;
+    padding-top: 12px;
+    display: flex;
+    /*border: 2px solid rgb(8, 198, 14);*/
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.icon_search{
+    height: 50px;
+    width: 660px;
+    /*border: 2px solid white;*/
+    margin-left: 45px;
+    padding-bottom: 12px;
+    display: flex;
+    gap: 30px;
+    
+}
+.my_icon{
+    height: 60px;
+    width: 90px;
+    /*border: 2px solid red;*/
+}
+img{
+    height: 60px;
+    width: 84px;
+    
+}
+.searchbar{
+    height: 60px;
+    width: 412px;
+    border: 2px solid rgb(222, 231, 230);
+    background-color: #252323;
+    border-radius: 45px;
+    color: white;
+    font-size: 21px;
+    padding-left: 17px;
+    
+}
+.features{
+    /*border: 2px solid red;*/
+    height: 45px;
+    width: auto;
+    margin-left: 10%;
+    padding-top: 6px;
+}
+.features p{
+
+    display: inline;
+    color: rgba(255, 255, 255, 0.789);
+    font-size: 21px;
+    margin-left: 29px;
+    border-bottom: 2px solid transparent;
+    
+}
+.login{
+    height: 60px;
+    width: 135px; 
+    background-color: white;
+    color: black;
+    display: inline;
+    margin-left: 29px;
+    border-radius: 43px;
+    font-size: 21px; 
+}
+
+.features p:hover{
+
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.library{
+    height: auto;
+    width: 510px;
+    /*border: 2px solid rgb(243, 243, 14);*/
+    margin-top: 5px;
+    background-color: #2523238a;
+    border-radius: 15px;
+}
+
+.header{
+    height: 43px;
+    width: 460px;
+    /*border: 2px solid red;*/
+    padding-top: 19px;
+    padding-left: 22px;
+    
+}
+
+.header p{
+    display: inline;
+    color: rgba(255, 255, 255, 0.789);
+    font-size: 21px;
+}
+
+.create-playlist{
+    height: 164px;
+    width: 452px;
+    /*border: 2px solid rgb(244, 106, 152);*/
+    margin-left: 19px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #242222;;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.create-playlist .firstp{
+    color: rgba(255, 255, 255, 0.98);
+    font-size: 22.5px;
+}
+.playlist-button{
+    height: 36px;
+    width: 165px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 43px;
+}
+.create-playlist  .sec{
+    color: rgba(253, 253, 253, 0.98);
+    font-size: 20px;
+}
+.podcast{
+    height: 164px;
+    width: 452px;
+    /*border: 2px solid rgb(244, 106, 152);*/
+    margin-left: 19px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #242222;;
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.podcast .firstp{
+    color: rgba(255, 255, 255, 0.98);
+    font-size: 22.5px;
+}
+.playlist-button{
+    height: 36px;
+    width: 165px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 43px;
+}
+.podcast .sec{
+    color: rgba(253, 253, 253, 0.98);
+    font-size: 20px;
+}
+
+.otherdetails{
+    height: 164px;
+    width: 452px;
+    /*border: 2px solid pink;*/
+    margin-top: 95px;
+    margin-left: 15px;
+    padding-top: 39px;
+}
+
+.otherdetails .l1det{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.789);
+    display: inline;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.otherdetails .l2det{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.789);
+    display: inline;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.otherdetails .l3det{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.934);
+    display: inline;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.eng{
+    height: 36px;
+    width: 137px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 43px;
+    margin-top: 13px;
+    margin-left: 83px;
+    background-color: #2523238a;
+    border: 1px solid white;
+    color: white;
+    
+}
+.main{
+    /*border: 2px solid rgb(255, 89, 0);*/
+    display: flex;
+    margin-top: 8px;
+    padding-top: 100px;
+}
+
+.videos{
+    height: auto;
+    width: 1090px;
+    /*border: 2px solid pink;*/
+    margin-top: 5px;
+    background-color: #2523238a;
+    border-radius: 15px;
+    margin-left: 15px;
+    padding-left: 55px;
+
+}
+
+.Trending-Songs{
+    height: 434px;
+    width: 1068px;
+    /*border: 2px solid greenyellow;*/
+}
+
+.title1{
+    color: white;
+    margin-left: 1px;
+
+}
+#first-card{
+    margin-left: 60px;
+}
+.carousel-1{
+
+    /*border: 2px solid rgb(239, 60, 11);*/
+    height: 355px;
+    width: 100%;
+    overflow-x: auto; /*creates a horizontal scrollbar*/
+    display: flex; 
+    scroll-behavior: smooth;
+    anchor-name: --carousel-1;
+    scroll-snap-type: x mandatory;
+    gap: 18px;
+}
+
+.carousel-1::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-1::scroll-button1(right),.carousel-1::scroll-button1(left){
+    content: '>';
+    font-size: 2rem;
+    color: white;
+    background-color: #252323;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --carousel-1;
+    
+}
+
+.carousel-1::scroll-button1(right){
+    position-area: right center;
+    translate: -110%;
+}
+
+
+.carousel-1::scroll-button1(left){
+    content: '<';
+    position-area: left center;
+    translate: 50%;
+   
+}
+
+.carousel-1::scroll-button1(right):disabled,.carousel-1::scroll-button1(left):disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.card{
+    scroll-snap-align: start;
+    flex: 0 0 9em;
+    height: 324px;
+    width: 150px;
+    /*border: 2px solid yellow;*/
+    margin-top: 27px;
+    /*margin-left: 18px;*/
+    color: black;
+    font-size: 27px;
+    background-color: #252323;
+    border-radius: 12px;
+    padding: 1px 1px 1px 1px;
+}
+
+.img1{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://static.toiimg.com/photo/61270282.cms");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+.img2{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Er5p4jU7rqozQuylRtsbKXwFDTbEO0_kunHai2-BATUkpklrYh4dP_39VHaEGvSvLOQmZwmUEzZLAAs9KcBfiNvPxeK3s6YzE6bNTfZqms33jq7tha0k4ua6Bcqtfc-F-75SlomxMA/s1600/96_tamil_film_poster.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.img3{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://preview.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-uapoavizu7xa1.jpg?width=465&format=pjpg&auto=webp&s=e2848bbecaa27bfe1c8a004d281d6ccf8c7edd0a");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+.img4{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qsUDXBVpMpf03ZW7H0Yf8z13u8Yrx0Qjew&s");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+.img5{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/e42f6c182854671.6535640e551bd.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+.img6{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydF45Bt_hylPCK6ffQ4uLRVRQVAMeaWlGFA&s");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+
+.img7{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy0vpT2NYKSVldIwXPExK5Kz_mfWLG__irzw&s");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+
+.img8{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://i.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-ch1d4xizu7xa1.jpg?width=443&format=pjpg&auto=webp&s=fe2b694dc9566d10f40e905ea89fd40396ebe530");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.img9{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://static.toiimg.com/thumb/imgsize-23456,msid-71832899,width-600,resizemode-4/71832899.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.img10{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://i.redd.it/some-really-great-tamil-movie-posters-drop-what-yall-think-v0-pdx92uizu7xa1.jpg?width=449&format=pjpg&auto=webp&s=5586c1fda2ebce962941e5c1bd603f8268d64ad6");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.img11{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://cdn.district.in/movies-assets/images/cinema/G%20Maareesan-038f4020-4508-11f0-aa9f-8fefdb33bbbf.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.img12{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Murari_poster.jpg/250px-Murari_poster.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+
+
+
+.descrip{
+    color:  rgba(255, 255, 255, 0.929);
+    margin-left: 23px;
+    font-size: 16px;
+}
+
+.descrip {
+    margin: 4px 0 4px 20px; /* margin: top  right  bottom  left; */
+}
+
+.title2{
+    margin-top: 38px;
+    color: white;
+}
+
+/* css for artists */
+.carousel-2{
+    display: flex;
+    /*border: 2px solid red;*/
+    padding-left: 17px;
+    overflow-x: auto;
+    width: 100%;
+    gap: 58px;
+    
+}
+.pictures-of-artists{
+    /*border: 2px solid yellow;*/
+    display: flex;
+    gap: 58px;
+    animation: spin 50s infinite linear;
+}
+
+@keyframes spin{
+    from {translate :0;}
+    to {translate :-100%;}
+}
+
+.artistpic{
+    flex: 0 0 12em;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: rgb(72, 72, 213);
+    /*border: 2px solid white;*/
+    
+}
+.a1-img{
+    background-image: url("https://sund-images.sunnxt.com/41144/200x200_AnirudhRavichander_41144_271f61a6-61b1-4bc0-9150-b4501d57b38c.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.a2-img{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPtZe0nDku7ggoGbIEPyoB8eQblKtipSiIQ&s");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.a3-img{
+    background-image: url("https://image.tmdb.org/t/p/w500/3po8IwdtONY72BuXr7ZhZZ0ugxQ.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.a4-img{
+    background-image: url("https://i.pinimg.com/originals/f0/a6/f7/f0a6f72b9e638a652aec92c6f39d6b83.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+/**/
+.a5-img{
+    background-image: url("https://pbs.twimg.com/media/Gn8eu0jWgAADdhF.jpg:large");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.a6-img{
+    background-image: url("https://c.saavncdn.com/artists/Yuvan_Shankar_Raja_002_20180802174245_500x500.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.a7-img{
+    background-image: url("https://cinetown.s3.ap-south-1.amazonaws.com/people/profile_img/1689253210.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+/**/
+
+.a8-img{
+    background-image: url("https://preview.redd.it/about-dsp-devi-sri-prasad-v0-i1wfditi2taf1.jpg?width=640&crop=smart&auto=webp&s=7f24afe69cc9d474fe3075a7fa670eff4920db4e");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.a9-img{
+    background-image: url("https://www.sunpictures.in/wp-content/uploads/2021/03/leon-james.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.a10-img{
+    background-image: url("https://s.saregama.tech/image/c/m/d/ca/b5/thaman-s_1644815480.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.a11-img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ab/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_%28cropped%29.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+.a12-img{
+    background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/ecc96b60bcdef5678d0d9b177ae2668f.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+/* popular albums*/
+
+.title3{
+    color: white;
+
+}
+/*.carousel-3{
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+    gap: 18px;
+    overflow-x: auto;  
+}*/
+
+.carousel-3{
+
+    /*border: 2px solid rgb(239, 60, 11);*/
+    height: 355px;
+    width: 100%;
+    overflow-x: auto; /*creates a horizontal scrollbar*/
+    display: flex; 
+    scroll-behavior: smooth;
+    anchor-name: --carousel-1;
+    scroll-snap-type: x mandatory;
+    gap: 18px;
+}
+
+.carousel-3::-webkit-scrollbar{
+    display: none;
+}
+
+.carousel-3::scroll-button2(right),.carousel-3::scroll-button2(left){
+    content: '>';
+    font-size: 2rem;
+    color: white;
+    background-color: #252323;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --carousel-1;
+    
+}
+
+.carousel-3::scroll-button2(right){
+    position-area: right center;
+    translate: -110%;
+}
+
+
+.carousel-3::scroll-button2(left){
+    content: '<';
+    position-area: left center;
+    translate: 50%;
+   
+}
+
+.carousel-3::scroll-button2(right):disabled,.carousel-3::scroll-button2(left):disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.img1-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b2731edf696a64afb583b45e0f93");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img2-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpn0N-LD_7mHjWeIxN6h_ujCZg8HejHytsHw&s");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img3-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/349/20-Biggest-Hits-Harris-Jayaraj-Vol-1-Tamil-2017-500x500.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img4-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b27327d5313675cfe321ed326827");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img5-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/editorial/Let_sPlayLeonJames_20240123082731_500x500.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img6-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/965/Papa-Hindi-2023-20230125182718-500x500.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img7-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/540/Trending-Bollywood-1-Min-Mix-Hindi-2023-20230720160521-500x500.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img8-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8MqrimvC-8EBejoKNjXQIOSgGh_r3gkVJOgZVDFTSNjLIWT6mXliq1Lt-F9zM9tuWumI&usqp=CAU");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img9-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/editorial/Let_sPlayShakthisreeGopalan_20250310055418.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img10-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://c.saavncdn.com/000/Soulful-Hits-Of-Sid-Sriram-Telugu-2022-20220514015458-500x500.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img11-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://s.saregama.tech/image/c/fw_485/2/b5/14/hits-to-remember-singer-karthick-hits_1440x1440_1543170302.jpg");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
+
+.img12-single{
+    height: 214px;
+    width: 204px;
+    /*border: 2px solid black;*/
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    background-image: url("https://i.scdn.co/image/ab67616d0000b273519544a2d2cbadef42793d58");
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 11px;
+
+}
